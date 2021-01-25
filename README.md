@@ -9,4 +9,12 @@ make
 sudo make install
 ```
 
+usages
+for example in the current project there is a file $PROJECTDIR/app/code/aaa.py
+
+* press ctrl-shift-P
+* ctrl-v (paste) 
+* enter
+
+
 doesn't work in mac osx at the moment, but another hack is to use the `make custom target` feature in `build` menu
