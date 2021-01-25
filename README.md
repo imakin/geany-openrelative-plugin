@@ -12,6 +12,7 @@ sudo make install
 usages
 for example in the current project there is a file $PROJECTDIR/app/code/aaa.py
 
+* copy the path relative to the current project `app/code/aaa.py`
 * press ctrl-shift-P
 * ctrl-v (paste) 
 * enter
