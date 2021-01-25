@@ -4,4 +4,9 @@ the file uri typically copied from ag or ack
 
 works in linux/ubuntu
 
+```
+make
+sudo make install
+```
+
 doesn't work in mac osx at the moment, but another hack is to use the `make custom target` feature in `build` menu
