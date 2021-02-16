@@ -16,10 +16,12 @@ $(LIBRARY): $(SOURCES)
 	$(CC) -shared -o $(LIBRARY) $(OBJECTS);
 
 install:
-	cp $(LIBRARY) /usr/lib/geany/
+	echo "installing"
+	if [ -d "/usr/lib/geany" ]; then cp $(LIBRARY) /usr/lib/geany/;	fi
+	if [ -d "/usr/lib/x86_64-linux-gnu/geany/" ]; then cp $(LIBRARY) /usr/lib/x86_64-linux-gnu/geany/; fi
 
-uninstall:
-	@rm -f $(BINDIR)/$(LIBRARY)
+#uninstall:
+	#@rm -f $(BINDIR)/$(LIBRARY)
 
 .PHONY : clean
 clean :
