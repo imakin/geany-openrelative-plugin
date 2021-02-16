@@ -5,6 +5,7 @@ the file uri typically copied from ag or ack
 works in linux/ubuntu
 
 ```
+sudo apt-get install build-essential libgtk-3-dev #this will install geanyplugin.h
 make
 sudo make install
 ```
